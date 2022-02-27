@@ -26,7 +26,6 @@ describe('ProductCard', () => {
       </ProductCard>
     );
     let tree = wrapper.toJSON();
-    console.log(tree);
     expect(tree).toMatchSnapshot();
 
     act(() => {
